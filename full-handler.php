@@ -21,7 +21,7 @@ $mysql = array(
     'host' => 'localhost',
     'user' => 'usuário',
     'pswd' => 'senha',
-    'dbname' => 'example'
+    'dbname' => 'code_sample'
 );
  
 //As notificações sempre serão via HTTP POST, então verificamos o método
