@@ -12,7 +12,7 @@ function storeCustomer(PDO $pdo, array $message)
     $stm = $pdo->prepare('
         INSERT INTO `customer` (
             `address_country`,
-            `address_cit`,
+            `address_city`,
             `address_country_code`,
             `address_name`,
             `address_state`,
