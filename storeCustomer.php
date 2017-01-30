@@ -27,7 +27,7 @@ function storeCustomer(PDO $pdo, array $message)
             `paypal_id`
         ) VALUES (
             :address_country,
-            :address_cit,
+            :address_city,
             :address_country_code,
             :address_name,
             :address_state,
